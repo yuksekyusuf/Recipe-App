@@ -37,8 +37,7 @@ I spent approximately **5 hours** on this project, allocated as follows:
 The weakest part may be:
 - **Testing Coverage**: Due to time constraints, I focused primarily on unit tests for core functions in view models and did not have time to add test coverage for service classes.
 - **Error State Simulations**: Testing for complex error scenarios (e.g., network interruptions, partial data loads) was limited.
-- **Offline Support**: Currently, the app has limited offline support with in-memory caching only. Implementing persistent caching
-- would allow users to access previously loaded data without an active internet connection
+- **Offline Support**: Currently, the app has limited offline support with in-memory caching only. Implementing persistent caching would allow users to access previously loaded data without an active internet connection
 
 ## External Code and Dependencies
 
