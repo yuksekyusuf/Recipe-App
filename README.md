@@ -1,6 +1,6 @@
 # Recipe App
 
-This project is a recipe app developed for Fetch’s take-home project.
+This project is a recipe app developed as a take-home project.
 
 ## Steps to Run the App
 
@@ -15,17 +15,6 @@ This project is a recipe app developed for Fetch’s take-home project.
 I focused on setting up a clear architecture that separates business logic from the UI, making each part easy to test and work with. Instead of using singletons, 
 I applied a protocol-based approach to keep services like CacheService and the network service independent, so they can be easily tested on their own. 
 I also used Swift’s concurrency tools, like Actor isolation in CacheService, to avoid race conditions and ensure safe, concurrent operations.
-
-
-## Time Spent
-
-I spent approximately **5 hours** on this project, allocated as follows:
-- **1.5 hours**: Setting up data models, view models, and network service layers.
-- **1.0 hour**: Implementing the view model for the main screen, including key methods for data handling and state management.
-- **1 hour**: Designing the UI and testing edge cases (e.g., empty data, malformed responses).
-- **30 minutes**: Implementing caching and image loading in a dedicated view model.
-- **30 minutes**: Implementing unit tests, primarily focused on the view models
-- **30 minutes**: Documentation, final testing, and minor UI adjustments.
 
 ## Trade-offs and Decisions
 
